@@ -2,6 +2,13 @@
 
 Movie Explorer is a full-stack test project for searching movies and TV shows using the TMDB API.
 
+## Live Demo
+
+Frontend: https://movie-explorer-five-bay.vercel.app
+Backend: https://movie-explorer-production-fe97.up.railway.app
+
+---
+
 ## Features
 
 - Search movies and TV shows by title
@@ -14,6 +21,8 @@ Movie Explorer is a full-stack test project for searching movies and TV shows us
 - Separate Search and Watchlist pages
 - GraphQL BFF between UI and TMDB REST API
 - GraphQL Code Generator configured
+
+---
 
 ## Tech Stack
 
@@ -32,12 +41,16 @@ Movie Explorer is a full-stack test project for searching movies and TV shows us
 - GraphQL
 - TMDB REST API
 
+---
+
 ## Architecture
 
 UI → GraphQL BFF → TMDB REST API
 
-The frontend does not call TMDB directly.
+The frontend does not call TMDB directly.  
 The BFF fetches data from TMDB and returns only the data required by the UI.
+
+---
 
 ## Project Structure
 
@@ -51,11 +64,15 @@ src/
 README.md
 
 
+---
+
 ## Requirements
 
 - Node.js
 - npm
 - TMDB API key
+
+---
 
 ## TMDB API Key Setup
 
